@@ -1,4 +1,9 @@
 language: go
 
 notifications:
-  webhooks: https://1958110c.ngrok.com/whatever
+  webhooks:
+    urls:
+      - https://1958110c.ngrok.com/whatever
+    on_success: always
+    on_failure: never
+    on_start: never
