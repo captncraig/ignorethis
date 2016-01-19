@@ -4,7 +4,7 @@ notifications:
   email: false
   webhooks:
     urls:
-      - https://1958110c.ngrok.com/whatever
+      - https://3188877c.ngrok.com/whatever
     on_success: always
     on_failure: never
     on_start: never
