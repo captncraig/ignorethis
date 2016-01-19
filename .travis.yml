@@ -1,6 +1,7 @@
 language: go
 
 notifications:
+  email: false
   webhooks:
     urls:
       - https://1958110c.ngrok.com/whatever
